@@ -1,0 +1,31 @@
+name = "cf-reverse-iran-v2"
+main = "index.mjs"
+compatibility_date = "2026-10-13"
+
+[[durable_objects.bindings]]
+name = "TUNNEL"
+class_name = "TunnelDO"
+
+[[durable_objects.bindings]]
+name = "NATIVE_REVERSE"
+class_name = "NativeReverseDO"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["TunnelDO"]
+
+[[migrations]]
+tag = "v2-native-reverse"
+new_sqlite_classes = ["NativeReverseDO"]
+
+[triggers]
+crons = ["* * * * *"]
+
+[vars]
+IRAN_RELAY_URL = "https://iran.example.com/reverse"
+CHANNELS = "1"
+ALLOWED_PORTS = "80,443"
+
+# Set secrets separately; never commit them here:
+# npx wrangler secret put TUNNEL_TOKEN --config worker/wrangler.toml
+# npx wrangler secret put ADMIN_TOKEN --config worker/wrangler.toml
