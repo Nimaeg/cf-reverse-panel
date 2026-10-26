@@ -1,0 +1,3 @@
+const tags=process.argv.slice(2);
+if(!tags.length||tags.some(t=>!t||t.length>128)){console.error('Usage: node scripts/xray-config.mjs inbound-443 [other-inbound]');process.exit(1);}
+console.log(JSON.stringify({outbounds:[{tag:'cf-reverse',protocol:'socks',settings:{servers:[{address:'127.0.0.1',port:10808}]}},{tag:'cf-reverse-block',protocol:'blackhole',settings:{}}],routing:{domainStrategy:'AsIs',rules:[{type:'field',inboundTag:tags,network:'udp',outboundTag:'cf-reverse-block'},{type:'field',inboundTag:tags,ip:['geoip:private'],outboundTag:'cf-reverse-block'},{type:'field',inboundTag:tags,network:'tcp',outboundTag:'cf-reverse'}]}},null,2));
