@@ -1,0 +1,13 @@
+node_modules/
+.wrangler/
+build/
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+generated-native/
+*.pem
+*.key
+*.log
+.DS_Store
