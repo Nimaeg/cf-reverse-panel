@@ -1,0 +1,65 @@
+[
+  {
+    "repo": "MHSanaei/3x-ui",
+    "path": "docs/content/docs/en/operations/reverse-proxy.mdx",
+    "sha": "e66d18fe05199d4dd5abbdd4670d25ca66dfa560",
+    "bytes": 1619,
+    "url": "https://raw.githubusercontent.com/MHSanaei/3x-ui/e66d18fe05199d4dd5abbdd4670d25ca66dfa560/docs/content/docs/en/operations/reverse-proxy.mdx"
+  },
+  {
+    "repo": "MHSanaei/3x-ui",
+    "path": "docs/lib/xray/reverse-proxy.ts",
+    "sha": "e66d18fe05199d4dd5abbdd4670d25ca66dfa560",
+    "bytes": 2128,
+    "url": "https://raw.githubusercontent.com/MHSanaei/3x-ui/e66d18fe05199d4dd5abbdd4670d25ca66dfa560/docs/lib/xray/reverse-proxy.ts"
+  },
+  {
+    "repo": "MHSanaei/3x-ui",
+    "path": "internal/web/service/outbound/outbound.go",
+    "sha": "e66d18fe05199d4dd5abbdd4670d25ca66dfa560",
+    "bytes": 9788,
+    "url": "https://raw.githubusercontent.com/MHSanaei/3x-ui/e66d18fe05199d4dd5abbdd4670d25ca66dfa560/internal/web/service/outbound/outbound.go"
+  },
+  {
+    "repo": "XTLS/Xray-core",
+    "path": "proxy/vless/outbound/outbound.go",
+    "sha": "1b1647cd9ddf0abc34b981d4611fc03bcac1ca74",
+    "bytes": 14668,
+    "url": "https://raw.githubusercontent.com/XTLS/Xray-core/1b1647cd9ddf0abc34b981d4611fc03bcac1ca74/proxy/vless/outbound/outbound.go"
+  },
+  {
+    "repo": "XTLS/Xray-core",
+    "path": "app/reverse/bridge.go",
+    "sha": "1b1647cd9ddf0abc34b981d4611fc03bcac1ca74",
+    "bytes": 5156,
+    "url": "https://raw.githubusercontent.com/XTLS/Xray-core/1b1647cd9ddf0abc34b981d4611fc03bcac1ca74/app/reverse/bridge.go"
+  },
+  {
+    "repo": "bia-pain-bache/BPB-Worker-Panel",
+    "path": "src/handlers/websocket.ts",
+    "sha": "9b2e33e8470b9c5de03a30592e99c640e7b1ae71",
+    "bytes": 748,
+    "url": "https://raw.githubusercontent.com/bia-pain-bache/BPB-Worker-Panel/9b2e33e8470b9c5de03a30592e99c640e7b1ae71/src/handlers/websocket.ts"
+  },
+  {
+    "repo": "bia-pain-bache/BPB-Worker-Panel",
+    "path": "src/protocols/vless.ts",
+    "sha": "9b2e33e8470b9c5de03a30592e99c640e7b1ae71",
+    "bytes": 9591,
+    "url": "https://raw.githubusercontent.com/bia-pain-bache/BPB-Worker-Panel/9b2e33e8470b9c5de03a30592e99c640e7b1ae71/src/protocols/vless.ts"
+  },
+  {
+    "repo": "cmliu/edgetunnel",
+    "path": "_worker.js",
+    "sha": "a8ab11125ece9bc27983f609a6359be81b21050c",
+    "bytes": 5142235,
+    "url": "https://raw.githubusercontent.com/cmliu/edgetunnel/a8ab11125ece9bc27983f609a6359be81b21050c/_worker.js"
+  },
+  {
+    "repo": "PdYrust/cf-xray-proxy",
+    "path": "src/index.ts",
+    "sha": "0e855fe2739f2a769d7802f92cb280625ebc6146",
+    "bytes": 21715,
+    "url": "https://raw.githubusercontent.com/PdYrust/cf-xray-proxy/0e855fe2739f2a769d7802f92cb280625ebc6146/src/index.ts"
+  }
+]
