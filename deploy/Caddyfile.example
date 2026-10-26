@@ -1,0 +1,8 @@
+iran.example.com {
+    handle /reverse {
+        reverse_proxy 127.0.0.1:8765
+    }
+    handle {
+        respond 404
+    }
+}

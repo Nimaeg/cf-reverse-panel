@@ -1,0 +1,22 @@
+[Unit]
+Description=CF Reverse Iran Agent
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=simple
+User=cf-reverse
+Group=cf-reverse
+WorkingDirectory=/opt/cf-reverse
+EnvironmentFile=/etc/cf-reverse.env
+ExecStart=/usr/bin/node /opt/cf-reverse/agent/main.mjs
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+MemoryMax=256M
+LimitNOFILE=4096
+[Install]
+WantedBy=multi-user.target
